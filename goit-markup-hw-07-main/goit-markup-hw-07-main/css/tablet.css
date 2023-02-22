@@ -1,0 +1,207 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .header-burger-btn {
+    display: none;
+  }
+
+  .menu-container {
+    display: none;
+  }
+
+  .header-list {
+    margin-left: 120px;
+  }
+
+  .contacts-list {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+
+  .contact-link {
+    padding: 0;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+
+  .main {
+    margin: 0 auto;
+    max-width: 768px;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: 1440px, 1440px, cover; */
+    
+    display: block;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+
+  .main-header {
+    font-size: 56px;
+    line-height: 60px;
+    max-width: 494px;
+  }
+
+  .modal {
+    width: 408px;
+  }
+
+  .attitudes-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .attitudes-item {
+    max-width: 356px;
+    width: calc(100% / 2);
+    margin-bottom: 0;
+  }
+
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    max-width: 552px;
+    row-gap: 64px;
+    column-gap: 24px;
+    margin: 0 auto;
+  }
+
+  .team-item {
+    margin-bottom: 0;
+  }
+
+  .customers-icon-list {
+    column-gap: 24px;
+  }
+
+  .customers-icon-item {
+    width: 168px;
+    height: 88px;
+  }
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-buttons-list {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+  }
+
+  .portfolio-products-list {
+    row-gap: 72px;
+  }
+
+  .portfolio-product-item {
+    max-width: 356px;
+  }
+
+
+
+
+  .footer-container {
+    max-width: 584px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* align-items: center; */
+    
+    /* width: 100%; */
+  }
+
+  .footer-block-one {
+    text-align: start;
+    margin-right: 24px;
+  }
+  
+
+  .social-media {
+    /* display: flex; */
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .social-media-item {
+    margin-bottom: 0;
+  }
+
+.subscribe {
+  align-items: start;
+  justify-content: start;
+}
+
+
+.subscribe-caption {
+align-items: start;
+justify-content: start;
+}
+
+
+  .subscribe-title {
+    text-align: start;
+    /* margin-bottom: 0; */
+  }
+
+  .subscribe-form {
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .subscribe-item {
+    
+    width: 264px;
+  }
+  
+  .subscribe-btn {
+    margin-top: 0;
+    margin-left: 24px;
+  }
+
+
+
+  
+ 
+}
+
+@media screen and (max-width: 1199px) {
+  .attitudes-icons {
+    display: none;
+  }
+
+  .products {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+
+  .attitudes-item-title {
+    text-align: start;
+  }
+
+}
